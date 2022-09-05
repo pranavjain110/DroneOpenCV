@@ -41,7 +41,7 @@ def getKeyboardInput():
     # Capturing and saving image
     if kp.getKey("c"):
         cv2.imwrite(f'Resources/Images/{time.time()}.jpg',img)
-        #add time delay here of 300 ms if many pics are being clicked
+        #add time delay here of 300 ms if many pics are
 
     return [lr,fb,ud,yv]
 while True:
